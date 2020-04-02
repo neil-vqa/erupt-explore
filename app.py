@@ -62,7 +62,7 @@ content = dbc.Container(
 								dbc.Card(
 									[
 										html.H5('Interaction Guide'),
-										html.Hr(),
+										html.Hr(className='mt-0'),
 										dcc.Markdown(['''
 													Start by applying the filter located at the upper left corner. 
 										
