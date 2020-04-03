@@ -149,7 +149,9 @@ def update_map(children,n_clicks,value):
 					),
 				text= hover_text,
 				hoverinfo='text',
-				showlegend= False
+				showlegend= False,
+				selected={'marker':{'size':25}},
+				unselected={'marker':{'opacity':0}}
 			)
 		)
 		map1.update_layout(
