@@ -96,10 +96,10 @@ content = dbc.Container(
 	style={'height':'100vh'}
 )
 
-def serve_layout():
-	return content
+#def serve_layout():
+#	return content
 
-app.layout = serve_layout
+app.layout = content
 
 
 @app.callback(
